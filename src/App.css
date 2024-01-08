@@ -1,0 +1,35 @@
+.form-container {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h3 {
+  text-align: center;
+  margin: 8px 0;
+}
+
+.form-container form {
+  padding: 15px;
+}
+
+.form-row legend {
+  font-size: 1.2rem;
+}
+
+.custom-checkbox {
+  margin: 8px 0;
+}
+
+.add-button , .delete-button{
+  margin-top: 35px;
+  margin-left: 10px;
+}
+
+label.required::after {
+  content: '*';
+  color: red;
+}
+.action-row button {
+  margin: 0 8px;
+}
